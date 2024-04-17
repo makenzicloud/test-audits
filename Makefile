@@ -29,6 +29,8 @@ anvil :; anvil -m 'test test test test test test test test test test test junk' 
 
 coverage :; forge coverage 
 
+certora :; certora run
+
 coverage-report :; forge coverage --report debug > coverage-report.txt
 
 scope :; tree ./src/ | sed 's/└/#/g; s/──/--/g; s/├/#/g; s/│ /|/g; s/│/|/g'
