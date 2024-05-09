@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "TargetContract",
+    "specfile": "/home/shan/my_project/test-audits/certora/contracts/Reentrancy.spec",
+    "specfileOrigRelpath": "Reentrancy.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

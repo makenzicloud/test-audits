@@ -20,6 +20,9 @@ update:; forge update
 build:; forge build
 
 test :; forge test 
+test:
+    forge test --match-path test/attack.t.sol -vvvv
+
 
 snapshot :; forge snapshot
 

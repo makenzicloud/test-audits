@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "TargetContract",
+    "specfile": "Reentrancy.spec",
+    "specfileOrigRelpath": "Reentrancy.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

@@ -1,0 +1,34 @@
+Saving last configuration file to .certora_internal/24_04_26_23_58_27_517/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/token/.certora_internal/24_04_26_23_58_27_517/.certora_config
+In /home/shan/my_project/test-audits/token/ERC20.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/token/ERC20.spec to /home/shan/my_project/test-audits/token/.certora_internal/24_04_26_23_58_27_517/.certora_sources/.0_ERC20.spec.spec
+writing /home/shan/my_project/test-audits/token/.certora_internal/24_04_26_23_58_27_517/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/token/.certora_internal/24_04_26_23_58_27_517']
+
+building file ERC20.sol
+Running cmd solc -o ".certora_internal/24_04_26_23_58_27_517/.certora_config/ERC20.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/token",. --standard-json
+stdout, stderr = .certora_internal/24_04_26_23_58_27_517/.certora_config/ERC20.sol_0.standard.json.stdout, .certora_internal/24_04_26_23_58_27_517/.certora_config/ERC20.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_04_26_23_58_27_517/.certora_config/ERC20.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/token",. --standard-json time: 1.1294
+reading standard json data from .certora_internal/24_04_26_23_58_27_517/.certora_config/ERC20.sol_0.standard.json.stdout
+build failed
+Failure traceback: 
+CertoraUserInputError: solc had an error:
+SyntaxError: No visibility specified. Did you intend to add "public"?
+   --> /home/shan/my_project/test-audits/token/ERC20.sol:305:5:
+    |
+305 |     function deposit(uint256 amount) payable exertnal {
+    |     ^ (Relevant source part starts here and spans across multiple lines).
+
+
+Encountered an error running Certora Prover:
+solc had an error:
+SyntaxError: No visibility specified. Did you intend to add "public"?
+   --> /home/shan/my_project/test-audits/token/ERC20.sol:305:5:
+    |
+305 |     function deposit(uint256 amount) payable exertnal {
+    |     ^ (Relevant source part starts here and spans across multiple lines).
+
+

@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "TargetContract",
+    "specfile": "NoGuardSafety.spec",
+    "specfileOrigRelpath": "NoGuardSafety.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

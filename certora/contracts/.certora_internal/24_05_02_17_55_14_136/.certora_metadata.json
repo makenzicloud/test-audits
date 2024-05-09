@@ -1,0 +1,22 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "SoftBank.sol:TargetContract"
+        ],
+        "process": "emv",
+        "verify": "TargetContract:Reentrancy.spec"
+    },
+    "cwd_relative": "certora/contracts",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "SoftBank.sol:TargetContract",
+        "--verify",
+        "TargetContract:Reentrancy.spec"
+    ],
+    "revision": "89574690dc19f696944f4229503163487d3d13c9",
+    "timestamp": "1714665314.773342"
+}

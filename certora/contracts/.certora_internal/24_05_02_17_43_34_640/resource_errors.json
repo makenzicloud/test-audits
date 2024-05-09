@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (Reentrancy.spec:10:103): Syntax error: unexpected token near `returns`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

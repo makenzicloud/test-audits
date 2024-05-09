@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.25;
+pragma solidity ^0.8.24;
 
 contract Example {
     function totalPriceBuggy(uint96 price, uint32 quantity) public pure returns (uint128) {

@@ -1,0 +1,54 @@
+Saving last configuration file to .certora_internal/24_04_27_10_33_55_517/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/token/.certora_internal/24_04_27_10_33_55_517/.certora_config
+In /home/shan/my_project/test-audits/token/ERC20.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/token/ERC20.spec to /home/shan/my_project/test-audits/token/.certora_internal/24_04_27_10_33_55_517/.certora_sources/.0_ERC20.spec.spec
+writing /home/shan/my_project/test-audits/token/.certora_internal/24_04_27_10_33_55_517/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/token/.certora_internal/24_04_27_10_33_55_517']
+
+building file ERC20.sol
+Running cmd solc -o ".certora_internal/24_04_27_10_33_55_517/.certora_config/ERC20.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/token",. --standard-json
+stdout, stderr = .certora_internal/24_04_27_10_33_55_517/.certora_config/ERC20.sol_0.standard.json.stdout, .certora_internal/24_04_27_10_33_55_517/.certora_config/ERC20.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_04_27_10_33_55_517/.certora_config/ERC20.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/token",. --standard-json time: 0.5125
+reading standard json data from .certora_internal/24_04_27_10_33_55_517/.certora_config/ERC20.sol_0.standard.json.stdout
+build failed
+Failure traceback: 
+CertoraUserInputError: solc had an error:
+TypeError: Contract "ERC20" should be marked as abstract.
+  --> /home/shan/my_project/test-audits/token/ERC20.sol:32:2:
+   |
+32 |  contract ERC20 is IERC20, IERC20Metadata {
+   |  ^ (Relevant source part starts here and spans across multiple lines).
+Note: Missing implementation: 
+  --> /home/shan/my_project/test-audits/token/IERC20.sol:13:5:
+   |
+13 |     function totalSupply() external view returns (uint256);
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Note: Missing implementation: 
+  --> /home/shan/my_project/test-audits/token/IERC20Metadata.sol:32:5:
+   |
+32 |     function version() external view returns (string memory);
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Encountered an error running Certora Prover:
+solc had an error:
+TypeError: Contract "ERC20" should be marked as abstract.
+  --> /home/shan/my_project/test-audits/token/ERC20.sol:32:2:
+   |
+32 |  contract ERC20 is IERC20, IERC20Metadata {
+   |  ^ (Relevant source part starts here and spans across multiple lines).
+Note: Missing implementation: 
+  --> /home/shan/my_project/test-audits/token/IERC20.sol:13:5:
+   |
+13 |     function totalSupply() external view returns (uint256);
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Note: Missing implementation: 
+  --> /home/shan/my_project/test-audits/token/IERC20Metadata.sol:32:5:
+   |
+32 |     function version() external view returns (string memory);
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
