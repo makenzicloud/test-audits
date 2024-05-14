@@ -1,0 +1,21 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (token.spec:12:59): Syntax error: unexpected token near `returns`",
+                    "location": []
+                },
+                {
+                    "message": "Error in spec file (token.spec:13:58): Syntax error: unexpected token near `returns`",
+                    "location": []
+                },
+                {
+                    "message": "Error in spec file (token.spec:14:55): Syntax error: unexpected token near `returns`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

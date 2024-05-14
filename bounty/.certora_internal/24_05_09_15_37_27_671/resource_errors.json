@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (AccessTest.spec:27:1): Syntax error: unexpected token near `}`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

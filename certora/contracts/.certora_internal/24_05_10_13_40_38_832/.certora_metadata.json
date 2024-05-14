@@ -1,0 +1,22 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "SoftBank.sol:TargetContract"
+        ],
+        "process": "emv",
+        "verify": "TargetContract:token.spec"
+    },
+    "cwd_relative": "certora/contracts",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "SoftBank.sol:TargetContract",
+        "--verify",
+        "TargetContract:token.spec"
+    ],
+    "revision": "e25abb12a818846dbd4145c23417446212f266d1",
+    "timestamp": "1715341238.762586"
+}

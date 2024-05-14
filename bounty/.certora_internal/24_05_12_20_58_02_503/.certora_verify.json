@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Governed",
+    "specfile": "/home/shan/my_project/test-audits/bounty/access.spec",
+    "specfileOrigRelpath": "access.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

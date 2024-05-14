@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Governed",
+    "specfile": "access.spec",
+    "specfileOrigRelpath": "access.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

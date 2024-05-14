@@ -1,0 +1,40 @@
+Saving last configuration file to .certora_internal/24_05_10_18_17_59_942/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_18_17_59_942/.certora_config
+In /home/shan/my_project/test-audits/certora/contracts/token.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/certora/contracts/token.spec to /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_18_17_59_942/.certora_sources/.0_token.spec.spec
+writing /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_18_17_59_942/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_18_17_59_942']
+
+building file SoftBank.sol
+Running cmd solc -o ".certora_internal/24_05_10_18_17_59_942/.certora_config/SoftBank.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/certora/contracts",. --standard-json
+stdout, stderr = .certora_internal/24_05_10_18_17_59_942/.certora_config/SoftBank.sol_0.standard.json.stdout, .certora_internal/24_05_10_18_17_59_942/.certora_config/SoftBank.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_05_10_18_17_59_942/.certora_config/SoftBank.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/certora/contracts",. --standard-json time: 0.4587
+reading standard json data from .certora_internal/24_05_10_18_17_59_942/.certora_config/SoftBank.sol_0.standard.json.stdout
+Running cmd solc --version
+stdout, stderr = .certora_internal/24_05_10_18_17_59_942/.certora_config/version_check_solc.stdout, .certora_internal/24_05_10_18_17_59_942/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.3659
+build failed
+Failure traceback: 
+CertoraUserInputError: Severe compiler warning:
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+ --> /home/shan/my_project/test-audits/certora/contracts/SoftBank.sol:8:52:
+  |
+8 |     function addBalance() external payable returns(uint256) {
+  |                                                    ^^^^^^^
+
+
+Please fix this warning before running the Certora Prover.
+Encountered an error running Certora Prover:
+Severe compiler warning:
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+ --> /home/shan/my_project/test-audits/certora/contracts/SoftBank.sol:8:52:
+  |
+8 |     function addBalance() external payable returns(uint256) {
+  |                                                    ^^^^^^^
+
+
+Please fix this warning before running the Certora Prover.

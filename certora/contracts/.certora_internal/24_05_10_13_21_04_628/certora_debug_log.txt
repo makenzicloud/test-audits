@@ -1,0 +1,19 @@
+Saving last configuration file to .certora_internal/24_05_10_13_21_04_628/run.conf
+contract name SoftBank is the same as the file name and can be omitted from SoftBank.sol:SoftBank
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_21_04_628/.certora_config
+In /home/shan/my_project/test-audits/certora/contracts/token.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/certora/contracts/token.spec to /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_21_04_628/.certora_sources/.0_token.spec.spec
+writing /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_21_04_628/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_21_04_628']
+Failed to compile spec files:
+[main] ERROR ALWAYS - Found errors in token.spec:
+[main] ERROR ALWAYS - Error in spec file (token.spec:12:22): method must contain visibility annotation
+[main] ERROR ALWAYS - Error in spec file (token.spec:13:20): method must contain visibility annotation
+[main] ERROR ALWAYS - Error in spec file (token.spec:14:23): method must contain visibility annotation
+build failed
+Failure traceback: 
+CertoraUserInputError: CVL specification syntax check failed
+Encountered an error running Certora Prover:
+CVL specification syntax check failed

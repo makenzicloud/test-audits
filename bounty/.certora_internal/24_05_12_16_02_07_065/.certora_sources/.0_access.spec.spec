@@ -1,0 +1,23 @@
+/*
+* Test acces control
+*/
+
+invariant governorConsistency() 
+    require(getGovernor() == owner(), "Governor should be equal to owner");
+
+
+rule  governorConsistencyAsRule(method f) {
+    // Precondition
+    require getGovernor() == owner();
+
+    env e;
+    calldataarg args;
+    f(e, args);
+
+    // Postcondition
+    assert getGovernor() == owner(),
+        "Governor should be equal to owner";
+}
+
+
+  

@@ -1,0 +1,16 @@
+Saving last configuration file to .certora_internal/24_05_09_13_29_09_810/run.conf
+contract name Controller is the same as the file name and can be omitted from Controller.sol:Controller
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/bounty/.certora_internal/24_05_09_13_29_09_810/.certora_config
+In /home/shan/my_project/test-audits/bounty/AccessControl.spec, found the imports: [('helpers/helpers.spec', '1:1'), ('methods/IAccessControl.spec', '2:2')]
+build failed
+Failure traceback: 
+CertoraUserInputError: In /home/shan/my_project/test-audits/bounty/AccessControl.spec, the following import declarations do not import existing .spec files:
+1:1:"/home/shan/my_project/test-audits/bounty/helpers/helpers.spec"
+2:2:"/home/shan/my_project/test-audits/bounty/methods/IAccessControl.spec"
+
+Encountered an error running Certora Prover:
+In /home/shan/my_project/test-audits/bounty/AccessControl.spec, the following import declarations do not import existing .spec files:
+1:1:"/home/shan/my_project/test-audits/bounty/helpers/helpers.spec"
+2:2:"/home/shan/my_project/test-audits/bounty/methods/IAccessControl.spec"
+

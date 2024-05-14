@@ -1,0 +1,22 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "Governed.sol:Governed"
+        ],
+        "process": "emv",
+        "verify": "Governed:AccessTest.spec"
+    },
+    "cwd_relative": "bounty",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Governed.sol:Governed",
+        "--verify",
+        "Governed:AccessTest.spec"
+    ],
+    "revision": "e25abb12a818846dbd4145c23417446212f266d1",
+    "timestamp": "1715264966.105941"
+}

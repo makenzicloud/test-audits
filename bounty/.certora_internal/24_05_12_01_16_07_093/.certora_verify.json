@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Pausable",
+    "specfile": "Pausable.spec",
+    "specfileOrigRelpath": "Pausable.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

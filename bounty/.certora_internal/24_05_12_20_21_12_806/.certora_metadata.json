@@ -1,0 +1,22 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "Controller.sol:Controller"
+        ],
+        "process": "emv",
+        "verify": "Controller:access.spec"
+    },
+    "cwd_relative": "bounty",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Controller.sol:Controller",
+        "--verify",
+        "Controller:access.spec"
+    ],
+    "revision": "e25abb12a818846dbd4145c23417446212f266d1",
+    "timestamp": "1715538072.193728"
+}

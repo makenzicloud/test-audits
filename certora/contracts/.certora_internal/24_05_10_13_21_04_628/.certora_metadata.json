@@ -1,0 +1,22 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "SoftBank.sol:SoftBank"
+        ],
+        "process": "emv",
+        "verify": "SoftBank:token.spec"
+    },
+    "cwd_relative": "certora/contracts",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "SoftBank.sol:SoftBank",
+        "--verify",
+        "SoftBank:token.spec"
+    ],
+    "revision": "e25abb12a818846dbd4145c23417446212f266d1",
+    "timestamp": "1715340065.012997"
+}

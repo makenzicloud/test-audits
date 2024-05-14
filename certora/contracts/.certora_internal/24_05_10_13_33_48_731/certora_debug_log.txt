@@ -1,0 +1,29 @@
+Saving last configuration file to .certora_internal/24_05_10_13_33_48_731/run.conf
+contract name SoftBank is the same as the file name and can be omitted from SoftBank.sol:SoftBank
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_33_48_731/.certora_config
+In /home/shan/my_project/test-audits/certora/contracts/token.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/certora/contracts/token.spec to /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_33_48_731/.certora_sources/.0_token.spec.spec
+writing /home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_33_48_731/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/certora/contracts/.certora_internal/24_05_10_13_33_48_731']
+
+building file SoftBank.sol
+Running cmd solc -o ".certora_internal/24_05_10_13_33_48_731/.certora_config/SoftBank.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/certora/contracts",. --standard-json
+stdout, stderr = .certora_internal/24_05_10_13_33_48_731/.certora_config/SoftBank.sol_0.standard.json.stdout, .certora_internal/24_05_10_13_33_48_731/.certora_config/SoftBank.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_05_10_13_33_48_731/.certora_config/SoftBank.sol_0/" --overwrite --allow-paths "/home/shan/my_project/test-audits/certora/contracts",. --standard-json time: 0.6908
+reading standard json data from .certora_internal/24_05_10_13_33_48_731/.certora_config/SoftBank.sol_0.standard.json.stdout
+build failed
+Failure traceback: 
+CertoraUserInputError: solc had an error:
+/home/shan/my_project/test-audits/certora/contracts/SoftBank.sol:2:1: ParserError: Source file requires different compiler version (current compiler is 0.7.3+commit.9bfce1f6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+pragma solidity ^0.8.0;
+^---------------------^
+
+Encountered an error running Certora Prover:
+solc had an error:
+/home/shan/my_project/test-audits/certora/contracts/SoftBank.sol:2:1: ParserError: Source file requires different compiler version (current compiler is 0.7.3+commit.9bfce1f6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+pragma solidity ^0.8.0;
+^---------------------^
+

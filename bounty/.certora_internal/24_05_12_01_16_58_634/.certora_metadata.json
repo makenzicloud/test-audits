@@ -1,0 +1,22 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "Pausable.sol"
+        ],
+        "process": "emv",
+        "verify": "Pausable:Pausable.spec"
+    },
+    "cwd_relative": "bounty",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Pausable.sol",
+        "--verify",
+        "Pausable:Pausable.spec"
+    ],
+    "revision": "e25abb12a818846dbd4145c23417446212f266d1",
+    "timestamp": "1715469418.896619"
+}

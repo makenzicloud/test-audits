@@ -1,0 +1,14 @@
+{
+    "importFilesToOrigRelpaths": {
+        "helpers.spec": "helpers.spec"
+    },
+    "primary_contract": "Governed",
+    "specfile": "AccessControl.spec",
+    "specfileOrigRelpath": "AccessControl.spec",
+    "specfilesToImportDecls": {
+        "AccessControl.spec": [
+            "./helpers.spec"
+        ]
+    },
+    "type": "spec"
+}

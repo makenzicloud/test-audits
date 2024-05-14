@@ -1,0 +1,14 @@
+{
+    "importFilesToOrigRelpaths": {
+        "/home/shan/my_project/test-audits/bounty/helpers.spec": "helpers.spec"
+    },
+    "primary_contract": "Governed",
+    "specfile": "/home/shan/my_project/test-audits/bounty/AccessControl.spec",
+    "specfileOrigRelpath": "AccessControl.spec",
+    "specfilesToImportDecls": {
+        "/home/shan/my_project/test-audits/bounty/AccessControl.spec": [
+            "./helpers.spec"
+        ]
+    },
+    "type": "spec"
+}

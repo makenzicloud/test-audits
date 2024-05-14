@@ -1,0 +1,21 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "Controller.sol"
+        ],
+        "msg": "reentry test",
+        "process": "emv",
+        "verify": "Controller:Reentrancy.spec"
+    },
+    "cwd_relative": "bounty",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "advanced_mutation.conf"
+    ],
+    "revision": "e25abb12a818846dbd4145c23417446212f266d1",
+    "timestamp": "1715442353.260774"
+}

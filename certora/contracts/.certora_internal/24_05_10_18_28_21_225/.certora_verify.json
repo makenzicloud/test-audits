@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC20",
+    "specfile": "token.spec",
+    "specfileOrigRelpath": "token.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

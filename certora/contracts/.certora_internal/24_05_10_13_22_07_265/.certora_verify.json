@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "SoftBank",
+    "specfile": "/home/shan/my_project/test-audits/certora/contracts/token.spec",
+    "specfileOrigRelpath": "token.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

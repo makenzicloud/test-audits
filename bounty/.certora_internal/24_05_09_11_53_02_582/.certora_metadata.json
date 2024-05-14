@@ -1,0 +1,35 @@
+{
+    "CLI_version": "7.3.0",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "Controller.sol"
+        ],
+        "loop_iter": "3",
+        "msg": "Controller : NoGuardSafety",
+        "optimistic_loop": true,
+        "process": "emv",
+        "prover_args": [
+            " -enableStorageSplitting false"
+        ],
+        "verify": "Controller:Reentrancy.spec"
+    },
+    "cwd_relative": "bounty",
+    "dirty": true,
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Controller.sol",
+        "--verify",
+        "Controller:Reentrancy.spec",
+        "--optimistic_loop",
+        "--loop_iter",
+        "3",
+        "--prover_args",
+        "-enableStorageSplitting false",
+        "--msg",
+        "Controller : NoGuardSafety"
+    ],
+    "revision": "e25abb12a818846dbd4145c23417446212f266d1",
+    "timestamp": "1715248382.539848"
+}
