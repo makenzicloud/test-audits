@@ -7,3 +7,6 @@
 [submodule "bounty/lib/forge-std"]
 	path = bounty/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "SprialDao/lib/forge-std"]
+	path = SprialDao/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
