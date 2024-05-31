@@ -10,6 +10,7 @@ contract Coil is ERC20Permit {
     constructor() ERC20("Coil", "COIL") ERC20Permit("Coil") {
         governance = msg.sender;
     }
+    
 
     function mint(address account_, uint256 amount_) external {
         require(isVault[msg.sender], "!vault");

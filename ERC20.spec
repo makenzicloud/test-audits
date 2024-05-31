@@ -1,5 +1,5 @@
 /***
- * #  ERC20 Example
+ * # PrelaunchPoints ERC20 Example
  *
  * This is an example specification for the PrelaunchPoints contract.
  */
@@ -86,21 +86,13 @@ invariant totalSupplyMatchesBalances(address contractAddress)
 //// ## Part 4: Ghosts and hooks ////////////////////////////////////////////////
 
 ghost mathint sum_of_balances(address contractAddress) {
-    init_state axiom sum_of_balances(contractAddress) == 0;
+    init_state axiom sum_of_balances == 0;
 }
 
 hook Sstore balances[KEY address owner, KEY address token] uint newValue (uint oldValue) {
     // When balance changes, update ghost
     sum_of_balances(contractAddress) = sum_of_balances(contractAddress) + newValue - oldValue;
 }
-
-
-
-hook Sstore balances[KEY address owner, KEY address token] uint newValue (uint oldValue) {
-    // When balance changes, update ghost
-    sum_of_balances(contractAddress) = sum_of_balances(contractAddress) + newValue - oldValue;
-}
-
 
 //// ## Part 5: Initial State ////////////////////////////////////////////////////
 
