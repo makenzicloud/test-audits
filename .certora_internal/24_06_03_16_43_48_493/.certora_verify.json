@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "DegenDealer",
+    "specfile": "/home/shan/my_project/test-audits/DoubleWithdraw.spec",
+    "specfileOrigRelpath": "DoubleWithdraw.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

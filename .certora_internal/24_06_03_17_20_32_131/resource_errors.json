@@ -1,0 +1,17 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (NonOwner.spec:6:21): Syntax error: unexpected token near `!=`",
+                    "location": []
+                },
+                {
+                    "message": "Error in spec file (NonOwner.spec:9:10): Syntax error: unexpected token near `.`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

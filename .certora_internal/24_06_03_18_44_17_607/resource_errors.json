@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (Ownable.spec:78:1): Syntax error: unexpected token near `}`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

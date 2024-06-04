@@ -12,7 +12,7 @@ hook CALL(uint g, address addr, uint value, uint inOffset, uint inSize, uint out
     env e;
     bool cond;
 
-    if (q_sighash == sig:withdraw().selector) {
+    if (g_sighash == sig:withdraw().selector) {
         withdraw@withrevert(e); // name of the function that is being called
         g_reverted = lastReverted;
     }

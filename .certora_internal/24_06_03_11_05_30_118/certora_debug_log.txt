@@ -1,0 +1,16 @@
+Saving last configuration file to .certora_internal/24_06_03_11_05_30_118/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/.certora_internal/24_06_03_11_05_30_118/.certora_config
+In /home/shan/my_project/test-audits/Reentrancy.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/Reentrancy.spec to /home/shan/my_project/test-audits/.certora_internal/24_06_03_11_05_30_118/.certora_sources/.0_Reentrancy.spec.spec
+writing /home/shan/my_project/test-audits/.certora_internal/24_06_03_11_05_30_118/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/.certora_internal/24_06_03_11_05_30_118']
+Failed to compile spec files:
+[main] ERROR ALWAYS - Found errors in Reentrancy.spec:
+[main] ERROR ALWAYS - Error in spec file (Reentrancy.spec:23:1): Syntax error: unexpected token near `rule`
+build failed
+Failure traceback: 
+CertoraUserInputError: CVL specification syntax check failed
+Encountered an error running Certora Prover:
+CVL specification syntax check failed

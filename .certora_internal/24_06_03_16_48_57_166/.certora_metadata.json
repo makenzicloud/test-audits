@@ -1,0 +1,27 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "BondManager.sol"
+        ],
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "BondManager:NoGuardSafety.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "NoGuardSafety.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "BondManager.sol",
+        "--verify",
+        "BondManager:NoGuardSafety.spec",
+        "--optimistic_loop"
+    ],
+    "revision": "78ca2c7178cb257b912078f8ae0d4c8c122d9799",
+    "timestamp": "1717426137.394889"
+}

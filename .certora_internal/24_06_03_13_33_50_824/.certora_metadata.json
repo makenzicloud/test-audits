@@ -1,0 +1,27 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "DegenDealer.sol"
+        ],
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "DegenDealer:DoubleWithdraw.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "DoubleWithdraw.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "DegenDealer.sol",
+        "--verify",
+        "DegenDealer:DoubleWithdraw.spec",
+        "--optimistic_loop"
+    ],
+    "revision": "78ca2c7178cb257b912078f8ae0d4c8c122d9799",
+    "timestamp": "1717414430.65808"
+}

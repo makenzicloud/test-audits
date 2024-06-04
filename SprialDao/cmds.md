@@ -16,10 +16,10 @@
 
  # certoraRun Metrom.sol --verify  Metrom:ERC20.spec --optimistic_loop
 
-  # certoraRun Metrom.sol --verify  Metrom:ERC20.spec --optimistic_loop
+  # certoraRun DegenDealer.sol --verify  DegenDealer:DoubleWithdraw.spec --optimistic_loop
 
  # certoraRun ERC20.sol  --verify ERC20:TransferChecks.spec
  
- # certoraRun BondManager.sol  --verify BondManager:NoGuardSafety.spec --optimistic_loop
+ # certoraRun BondManager.sol  --verify BondManager:test.spec --optimistic_loop
 
-# certoraRun JellyDrop.sol --verify  JellyDrop:NoGuardSafety.spec --optimistic_loop
+# certoraRun DegenDealer.sol --verify  DegenDealer:Ownable.spec --optimistic_loop

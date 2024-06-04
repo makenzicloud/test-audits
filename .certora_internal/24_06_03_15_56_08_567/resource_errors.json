@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (DoubleWithdraw.spec:6:10): Syntax error: unexpected token near `true`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}
