@@ -1,0 +1,16 @@
+{
+    "importFilesToOrigRelpaths": {
+        "IOwnable2Step.spec": "IOwnable2Step.spec",
+        "helpers.spec": "helpers.spec"
+    },
+    "primary_contract": "BondManager",
+    "specfile": "Ownable2Step.spec",
+    "specfileOrigRelpath": "Ownable2Step.spec",
+    "specfilesToImportDecls": {
+        "Ownable2Step.spec": [
+            "./helpers.spec",
+            "./IOwnable2Step.spec"
+        ]
+    },
+    "type": "spec"
+}

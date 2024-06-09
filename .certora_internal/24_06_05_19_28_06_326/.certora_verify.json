@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Lib_AddressManager",
+    "specfile": "test.spec",
+    "specfileOrigRelpath": "test.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

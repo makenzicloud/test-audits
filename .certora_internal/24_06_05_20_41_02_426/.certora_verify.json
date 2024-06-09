@@ -1,0 +1,16 @@
+{
+    "importFilesToOrigRelpaths": {
+        "IOwnable.spec": "IOwnable.spec",
+        "helpers.spec": "helpers.spec"
+    },
+    "primary_contract": "Lib_AddressManager",
+    "specfile": "Balances.spec",
+    "specfileOrigRelpath": "Balances.spec",
+    "specfilesToImportDecls": {
+        "Balances.spec": [
+            "./IOwnable.spec",
+            "./helpers.spec"
+        ]
+    },
+    "type": "spec"
+}

@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (FOE.spec:7:78): Syntax error: unexpected token near `envfree`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

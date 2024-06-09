@@ -1,4 +1,4 @@
-import "helpers/helpers.spec"
+import "./helpers.spec"
 import "methods/IAccessControlDefaultAdminRules.spec"
 import "methods/IAccessControl.spec"
 import "AccessControl.spec"

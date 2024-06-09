@@ -1,0 +1,29 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "Lib_AddressManager.sol"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "Lib_AddressManager:ZeroAddress.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "ZeroAddress.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Lib_AddressManager.sol",
+        "--verify",
+        "Lib_AddressManager:ZeroAddress.spec",
+        "--optimistic_hashing",
+        "--optimistic_loop"
+    ],
+    "revision": "b0a6f05a5ecd700da56724392b6642ef96512511",
+    "timestamp": "1717617566.431329"
+}

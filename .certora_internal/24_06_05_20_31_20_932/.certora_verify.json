@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "BondManager",
+    "specfile": "AccessTest.spec",
+    "specfileOrigRelpath": "AccessTest.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

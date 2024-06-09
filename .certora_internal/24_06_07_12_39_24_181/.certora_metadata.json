@@ -1,0 +1,25 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "ERC20.sol"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "ERC20:Reentrancy.spec"
+    },
+    "conf_path": "Reentrancy.conf",
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "Reentrancy.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Reentrancy.conf"
+    ],
+    "revision": "b0a6f05a5ecd700da56724392b6642ef96512511",
+    "timestamp": "1717756764.889045"
+}

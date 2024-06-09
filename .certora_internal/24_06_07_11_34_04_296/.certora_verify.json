@@ -1,0 +1,16 @@
+{
+    "importFilesToOrigRelpaths": {
+        "/home/shan/my_project/test-audits/IOwnable.spec": "IOwnable.spec",
+        "/home/shan/my_project/test-audits/helpers.spec": "helpers.spec"
+    },
+    "primary_contract": "DegenDealer",
+    "specfile": "/home/shan/my_project/test-audits/Balances.spec",
+    "specfileOrigRelpath": "Balances.spec",
+    "specfilesToImportDecls": {
+        "/home/shan/my_project/test-audits/Balances.spec": [
+            "./IOwnable.spec",
+            "./helpers.spec"
+        ]
+    },
+    "type": "spec"
+}

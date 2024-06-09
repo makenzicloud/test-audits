@@ -1,0 +1,16 @@
+{
+    "importFilesToOrigRelpaths": {
+        "IAccessControl.spec": "IAccessControl.spec",
+        "helpers.spec": "helpers.spec"
+    },
+    "primary_contract": "DegenDealer",
+    "specfile": "AccessControl.spec",
+    "specfileOrigRelpath": "AccessControl.spec",
+    "specfilesToImportDecls": {
+        "AccessControl.spec": [
+            "./helpers.spec",
+            "./IAccessControl.spec"
+        ]
+    },
+    "type": "spec"
+}

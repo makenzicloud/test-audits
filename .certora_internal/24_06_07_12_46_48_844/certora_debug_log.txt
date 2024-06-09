@@ -1,0 +1,13 @@
+Saving last configuration file to .certora_internal/24_06_07_12_46_48_844/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/.certora_internal/24_06_07_12_46_48_844/.certora_config
+In /home/shan/my_project/test-audits/AccessControl.spec, found the imports: [('./helpers.spec', '1:1'), ('methods/IAccessControl.spec', '2:2')]
+build failed
+Failure traceback: 
+CertoraUserInputError: In /home/shan/my_project/test-audits/AccessControl.spec, the following import declarations do not import existing .spec files:
+2:2:"/home/shan/my_project/test-audits/methods/IAccessControl.spec"
+
+Encountered an error running Certora Prover:
+In /home/shan/my_project/test-audits/AccessControl.spec, the following import declarations do not import existing .spec files:
+2:2:"/home/shan/my_project/test-audits/methods/IAccessControl.spec"
+

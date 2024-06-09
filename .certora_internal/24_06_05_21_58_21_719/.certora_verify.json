@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "BondManager",
+    "specfile": "ZeroAddress.spec",
+    "specfileOrigRelpath": "ZeroAddress.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

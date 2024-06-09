@@ -1,0 +1,29 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "DegenDealer.sol"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "DegenDealer:Balances.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "Balances.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "DegenDealer.sol",
+        "--verify",
+        "DegenDealer:Balances.spec",
+        "--optimistic_loop",
+        "--optimistic_hashing"
+    ],
+    "revision": "b0a6f05a5ecd700da56724392b6642ef96512511",
+    "timestamp": "1717752844.902774"
+}

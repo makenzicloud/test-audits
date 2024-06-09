@@ -1,0 +1,18 @@
+Saving last configuration file to .certora_internal/24_06_07_12_51_21_458/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/.certora_internal/24_06_07_12_51_21_458/.certora_config
+In /home/shan/my_project/test-audits/AccessControl.spec, found the imports: [('./helpers.spec', '1:1'), ('./IAccessControl.spec', '2:2')]
+In /home/shan/my_project/test-audits/helpers.spec, found the imports: []
+In /home/shan/my_project/test-audits/IAccessControl.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/AccessControl.spec to /home/shan/my_project/test-audits/.certora_internal/24_06_07_12_51_21_458/.certora_sources/.0_AccessControl.spec.spec
+writing /home/shan/my_project/test-audits/.certora_internal/24_06_07_12_51_21_458/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/.certora_internal/24_06_07_12_51_21_458']
+Failed to compile spec files:
+[main] ERROR ALWAYS - Found errors in AccessControl.spec:
+[main] ERROR ALWAYS - Error in spec file (AccessControl.spec:2:31): Since CVL 2, `import` statements must end with `;`
+build failed
+Failure traceback: 
+CertoraUserInputError: CVL specification syntax check failed
+Encountered an error running Certora Prover:
+CVL specification syntax check failed

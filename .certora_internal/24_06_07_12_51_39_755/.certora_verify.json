@@ -1,0 +1,16 @@
+{
+    "importFilesToOrigRelpaths": {
+        "/home/shan/my_project/test-audits/IAccessControl.spec": "IAccessControl.spec",
+        "/home/shan/my_project/test-audits/helpers.spec": "helpers.spec"
+    },
+    "primary_contract": "DegenDealer",
+    "specfile": "/home/shan/my_project/test-audits/AccessControl.spec",
+    "specfileOrigRelpath": "AccessControl.spec",
+    "specfilesToImportDecls": {
+        "/home/shan/my_project/test-audits/AccessControl.spec": [
+            "./helpers.spec",
+            "./IAccessControl.spec"
+        ]
+    },
+    "type": "spec"
+}

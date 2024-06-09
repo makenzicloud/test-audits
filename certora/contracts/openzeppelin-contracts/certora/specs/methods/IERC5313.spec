@@ -1,3 +1,3 @@
 methods {
-    owner() returns (address) envfree
+    function owner() returns (address) envfree
 }
