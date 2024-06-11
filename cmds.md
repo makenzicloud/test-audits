@@ -10,4 +10,6 @@
 
  #  certoraRun DegenDealer.sol --verify  DegenDealer:Ownable.spec --optimistic_loop --optimistic_hashing 
 
-  certoraRun ERC20.sol --verify  ERC20:test.spec  --optimistic_loop --optimistic_hashing
+  certoraRun EvilToken.sol:EvilERC20Token --verify   EvilERC20Token:Erc20Logic.spec --optimistic_loop --optimistic_hashing 
+  
+  # certoraRun EvilToken.sol:EvilERC20Token --verify   EvilERC20Token:Erc20Logic.spec --optimistic_loop --optimistic_hashing 

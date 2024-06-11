@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "EvilERC20Token",
+    "specfile": "/home/shan/my_project/test-audits/ERC20.spec",
+    "specfileOrigRelpath": "ERC20.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

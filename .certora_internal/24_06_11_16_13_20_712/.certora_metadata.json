@@ -1,0 +1,29 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "EvilToken.sol:EvilERC20Token"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "EvilERC20Token:Erc20Logic.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "Erc20Logic.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "EvilToken.sol:EvilERC20Token",
+        "--verify",
+        "EvilERC20Token:Erc20Logic.spec",
+        "--optimistic_loop",
+        "--optimistic_hashing"
+    ],
+    "revision": "74bf5f5e0f55e7b0e563fbe81b82054aaa21dc7b",
+    "timestamp": "1718115200.328229"
+}
