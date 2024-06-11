@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "DegenDealer",
-    "specfile": "/home/shan/my_project/test-audits/StateChange.spec",
-    "specfileOrigRelpath": "StateChange.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

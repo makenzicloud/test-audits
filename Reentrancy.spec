@@ -8,17 +8,15 @@ hook CALL(uint g, address addr, uint value, uint argsOffset, uint argsLength, ui
     env e;
     bool cond;
     
-
-    
-    //Adjusted to include the new function signature
-    if (g_sighash == sig:withdraw().selector) {
-        withdraw@withrevert(e); // Concrete name
-        g_reverted = lastReverted;
-    }
-    else {
-        // Fallback case
-        g_reverted = true;
-    }
+    // Adjusted to include the new function signature
+//     if (g_sighash == sig:withdrawFTN().selector) {
+//         withdrawFTN@withrevert(e); // Concrete name
+//         g_reverted = lastReverted;
+//     }
+//     else {
+//         // Fallback case
+//         g_reverted = true;
+//     }
 }
 
 // Rule filtering for non-view functions
@@ -33,14 +31,3 @@ rule no_reentrancy(method f, method g) filtered { f->f.isView, g ->g.isView } {
     
     assert called_extcall => g_reverted, "Reentrancy weakness exists";
 }
-
-// rule reentrancySafety(method f) {
-//     // start with all flags false 
-//     require !called_extcall && !storage_access_before_call && 
-//             !storage_access_after_call;
-
-//     calldataarg args;
-//     env e;
-//     f(e,args);
-//     assert !(storage_access_before_call && storage_access_after_call), "Reentrancy weakness exists";
-// }

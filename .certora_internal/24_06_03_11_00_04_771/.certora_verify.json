@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "DegenDealer",
-    "specfile": "reachability.spec",
-    "specfileOrigRelpath": "reachability.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "DegenDealer",
-    "specfile": "test.spec",
-    "specfileOrigRelpath": "test.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

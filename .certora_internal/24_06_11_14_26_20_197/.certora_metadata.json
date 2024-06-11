@@ -1,0 +1,29 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "EvilToken.sol:EvilToken"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "EvilToken:test.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "test.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "EvilToken.sol:EvilToken",
+        "--verify",
+        "EvilToken:test.spec",
+        "--optimistic_loop",
+        "--optimistic_hashing"
+    ],
+    "revision": "baedf279b3a1eeb1f688eb9b3fc9004d9e29e3f1",
+    "timestamp": "1718108782.336705"
+}

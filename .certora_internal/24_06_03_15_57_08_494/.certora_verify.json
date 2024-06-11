@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "DegenDealer",
-    "specfile": "DoubleWithdraw.spec",
-    "specfileOrigRelpath": "DoubleWithdraw.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

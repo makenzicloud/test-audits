@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "DegenDealer",
-    "specfile": "/home/shan/my_project/test-audits/NonOwner.spec",
-    "specfileOrigRelpath": "NonOwner.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

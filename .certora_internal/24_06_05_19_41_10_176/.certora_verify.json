@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "Lib_AddressManager",
-    "specfile": "/home/shan/my_project/test-audits/test.spec",
-    "specfileOrigRelpath": "test.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "BondManager",
-    "specfile": "NoGuardSafety.spec",
-    "specfileOrigRelpath": "NoGuardSafety.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

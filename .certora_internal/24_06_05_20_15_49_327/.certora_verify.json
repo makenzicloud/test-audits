@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "Lib_AddressManager",
-    "specfile": "IOwnable2Step.spec",
-    "specfileOrigRelpath": "IOwnable2Step.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}

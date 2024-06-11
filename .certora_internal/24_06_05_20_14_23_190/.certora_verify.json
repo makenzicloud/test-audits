@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "Lib_AddressManager",
-    "specfile": "/home/shan/my_project/test-audits/IOwnable2Step.spec",
-    "specfileOrigRelpath": "IOwnable2Step.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}
