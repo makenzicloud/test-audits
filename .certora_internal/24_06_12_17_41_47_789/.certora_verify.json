@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "THORChain_Router",
+    "specfile": "/home/shan/my_project/test-audits/Benchmarking.spec",
+    "specfileOrigRelpath": "Benchmarking.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

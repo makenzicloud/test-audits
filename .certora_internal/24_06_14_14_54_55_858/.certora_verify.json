@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "RabbitHabit",
+    "specfile": "/home/shan/my_project/test-audits/Benchmarking.spec",
+    "specfileOrigRelpath": "Benchmarking.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

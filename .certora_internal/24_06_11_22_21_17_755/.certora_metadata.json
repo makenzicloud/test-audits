@@ -1,0 +1,25 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "EvilToken.sol"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "EvilToken:Reentrancy.spec"
+    },
+    "conf_path": "Reentrancy.conf",
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "Reentrancy.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Reentrancy.conf"
+    ],
+    "revision": "04d5d829231e912a122b67c2017f8eb13d03dafe",
+    "timestamp": "1718137280.457878"
+}

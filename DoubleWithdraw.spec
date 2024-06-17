@@ -16,8 +16,8 @@ rule noDoubleWithdraw(address account) {
     address to;
     uint256 amount;
     require amount > 0;
-    // uint256 amountMinted = deposit(e, amount);
-    // bool;
+    uint256 amountMinted = deposit(e, amount);
+    bool;
 
  
     require e.msg.sender == account;

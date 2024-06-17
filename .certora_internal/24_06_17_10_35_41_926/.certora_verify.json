@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "RabbitHabit",
+    "specfile": "BurnMint.spec",
+    "specfileOrigRelpath": "BurnMint.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

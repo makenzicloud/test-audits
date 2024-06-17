@@ -1,0 +1,39 @@
+Saving last configuration file to .certora_internal/24_06_17_10_50_20_698/run.conf
+contract name Dispenser is the same as the file name and can be omitted from Dispenser.sol:Dispenser
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/.certora_internal/24_06_17_10_50_20_698/.certora_config
+In /home/shan/my_project/test-audits/Benchmarking.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/Benchmarking.spec to /home/shan/my_project/test-audits/.certora_internal/24_06_17_10_50_20_698/.certora_sources/.0_Benchmarking.spec.spec
+writing /home/shan/my_project/test-audits/.certora_internal/24_06_17_10_50_20_698/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/.certora_internal/24_06_17_10_50_20_698']
+
+building file Dispenser.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/24_06_17_10_50_20_698/.certora_config/version_check_solc.stdout, .certora_internal/24_06_17_10_50_20_698/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.5147
+Running cmd solc -o ".certora_internal/24_06_17_10_50_20_698/.certora_config/Dispenser.sol_0/" --overwrite --allow-paths ".",. --standard-json
+stdout, stderr = .certora_internal/24_06_17_10_50_20_698/.certora_config/Dispenser.sol_0.standard.json.stdout, .certora_internal/24_06_17_10_50_20_698/.certora_config/Dispenser.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_06_17_10_50_20_698/.certora_config/Dispenser.sol_0/" --overwrite --allow-paths ".",. --standard-json time: 0.8688
+reading standard json data from .certora_internal/24_06_17_10_50_20_698/.certora_config/Dispenser.sol_0.standard.json.stdout
+build failed
+Failure traceback: 
+CertoraUserInputError: solc had an error:
+ParserError: Source file requires different compiler version (current compiler is 0.8.20+commit.a1b79de6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> /home/shan/my_project/test-audits/Dispenser.sol:2:1:
+  |
+2 | pragma solidity ^0.8.25;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Encountered an error running Certora Prover:
+solc had an error:
+ParserError: Source file requires different compiler version (current compiler is 0.8.20+commit.a1b79de6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> /home/shan/my_project/test-audits/Dispenser.sol:2:1:
+  |
+2 | pragma solidity ^0.8.25;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+

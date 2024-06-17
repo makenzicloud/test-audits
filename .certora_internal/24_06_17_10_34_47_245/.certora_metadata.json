@@ -1,0 +1,29 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "glodollar.sol:RabbitHabit"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "RabbitHabit:recover.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "recover.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "glodollar.sol:RabbitHabit",
+        "--verify",
+        "RabbitHabit:recover.spec",
+        "--optimistic_hashing",
+        "--optimistic_loop"
+    ],
+    "revision": "04d5d829231e912a122b67c2017f8eb13d03dafe",
+    "timestamp": "1718613287.879228"
+}

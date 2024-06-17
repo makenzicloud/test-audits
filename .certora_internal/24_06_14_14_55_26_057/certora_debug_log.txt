@@ -1,0 +1,89 @@
+Saving last configuration file to .certora_internal/24_06_14_14_55_26_057/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_config
+In /home/shan/my_project/test-audits/Benchmarking.spec, found the imports: []
+copying spec file /home/shan/my_project/test-audits/Benchmarking.spec to /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/.0_Benchmarking.spec.spec
+writing /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057']
+
+building file glodollar.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/24_06_14_14_55_26_057/.certora_config/version_check_solc.stdout, .certora_internal/24_06_14_14_55_26_057/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.4787
+Running cmd solc -o ".certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0/" --overwrite --allow-paths ".",. --standard-json
+stdout, stderr = .certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0.standard.json.stdout, .certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0/" --overwrite --allow-paths ".",. --standard-json time: 0.7113
+reading standard json data from .certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0.standard.json.stdout
+collecting worklist for /home/shan/my_project/test-audits/glodollar.sol
+Processing dependencies from file /home/shan/my_project/test-audits/glodollar.sol
+available keys: dict_keys(['/home/shan/my_project/test-audits/glodollar.sol'])
+Contracts in glodollar.sol_0 (file glodollar.sol): ['Address', 'Context', 'IBankroll', 'IERC165', 'IERC20', 'IERC721', 'Ownable', 'RabbitHabit', 'ReentrancyGuard']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/home/shan/my_project/test-audits/glodollar.sol:Address'), (274184521717934524641157099916833587201, '/home/shan/my_project/test-audits/glodollar.sol:Context'), (274184521717934524641157099916833587202, '/home/shan/my_project/test-audits/glodollar.sol:IBankroll'), (274184521717934524641157099916833587203, '/home/shan/my_project/test-audits/glodollar.sol:IERC165'), (274184521717934524641157099916833587204, '/home/shan/my_project/test-audits/glodollar.sol:IERC20'), (274184521717934524641157099916833587205, '/home/shan/my_project/test-audits/glodollar.sol:IERC721'), (274184521717934524641157099916833587206, '/home/shan/my_project/test-audits/glodollar.sol:Ownable'), (274184521717934524641157099916833587207, '/home/shan/my_project/test-audits/glodollar.sol:RabbitHabit'), (274184521717934524641157099916833587208, '/home/shan/my_project/test-audits/glodollar.sol:ReentrancyGuard')]
+Working on contract Address
+Working on contract Address
+Working on contract Context
+Working on contract Context
+Working on contract IBankroll
+Working on contract IBankroll
+Working on contract IERC165
+Working on contract IERC165
+Working on contract IERC20
+Working on contract IERC20
+Working on contract IERC721
+Working on contract IERC721
+Working on contract Ownable
+Working on contract Ownable
+Working on contract RabbitHabit
+Working on contract RabbitHabit
+Working on contract ReentrancyGuard
+Working on contract ReentrancyGuard
+For contracts of primary RabbitHabit
+finding primary contract address of /home/shan/my_project/test-audits/glodollar.sol:RabbitHabit in [(274184521717934524641157099916833587200, '/home/shan/my_project/test-audits/glodollar.sol:Address'), (274184521717934524641157099916833587201, '/home/shan/my_project/test-audits/glodollar.sol:Context'), (274184521717934524641157099916833587202, '/home/shan/my_project/test-audits/glodollar.sol:IBankroll'), (274184521717934524641157099916833587203, '/home/shan/my_project/test-audits/glodollar.sol:IERC165'), (274184521717934524641157099916833587204, '/home/shan/my_project/test-audits/glodollar.sol:IERC20'), (274184521717934524641157099916833587205, '/home/shan/my_project/test-audits/glodollar.sol:IERC721'), (274184521717934524641157099916833587206, '/home/shan/my_project/test-audits/glodollar.sol:Ownable'), (274184521717934524641157099916833587207, '/home/shan/my_project/test-audits/glodollar.sol:RabbitHabit'), (274184521717934524641157099916833587208, '/home/shan/my_project/test-audits/glodollar.sol:ReentrancyGuard')]
+Contracts in SDC glodollar.sol_0: ['Address', 'Context', 'IBankroll', 'IERC165', 'IERC20', 'IERC721', 'Ownable', 'RabbitHabit', 'ReentrancyGuard']
+Building source tree
+Copying /home/shan/my_project/test-audits/glodollar.sol to .certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol
+Copying /home/shan/my_project/test-audits/BenchMarking.conf to .certora_internal/24_06_14_14_55_26_057/.certora_sources/BenchMarking.conf
+Copying /home/shan/my_project/test-audits/Benchmarking.spec to .certora_internal/24_06_14_14_55_26_057/.certora_sources/Benchmarking.spec
+Backing up current .certora_sources to .certora_internal/24_06_14_14_55_26_057/.certora_sources/.pre_autofinders.0
+Running cmd solc -o ".certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0/" --overwrite --allow-paths ".certora_internal/24_06_14_14_55_26_057/.certora_sources",. --standard-json
+stdout, stderr = .certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0.standard.json.stdout, .certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0.standard.json.stderr
+Exitcode 0
+Solc run solc -o ".certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0/" --overwrite --allow-paths ".certora_internal/24_06_14_14_55_26_057/.certora_sources",. --standard-json time: 0.6742
+reading standard json data from .certora_internal/24_06_14_14_55_26_057/.certora_config/glodollar.sol_0.standard.json.stdout
+collecting worklist for /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol
+Processing dependencies from file /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol
+available keys: dict_keys(['/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol'])
+Contracts in glodollar.sol_0 (file .certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol): ['Address', 'Context', 'IBankroll', 'IERC165', 'IERC20', 'IERC721', 'Ownable', 'RabbitHabit', 'ReentrancyGuard']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587209, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:Address'), (274184521717934524641157099916833587210, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:Context'), (274184521717934524641157099916833587211, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IBankroll'), (274184521717934524641157099916833587212, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IERC165'), (274184521717934524641157099916833587213, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IERC20'), (274184521717934524641157099916833587214, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IERC721'), (274184521717934524641157099916833587215, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:Ownable'), (274184521717934524641157099916833587216, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:RabbitHabit'), (274184521717934524641157099916833587217, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:ReentrancyGuard')]
+Working on contract Address
+Working on contract Address
+Working on contract Context
+Working on contract Context
+Working on contract IBankroll
+Working on contract IBankroll
+Working on contract IERC165
+Working on contract IERC165
+Working on contract IERC20
+Working on contract IERC20
+Working on contract IERC721
+Working on contract IERC721
+Working on contract Ownable
+Working on contract Ownable
+Working on contract RabbitHabit
+Working on contract RabbitHabit
+Working on contract ReentrancyGuard
+Working on contract ReentrancyGuard
+For contracts of primary RabbitHabit
+finding primary contract address of /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:RabbitHabit in [(274184521717934524641157099916833587209, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:Address'), (274184521717934524641157099916833587210, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:Context'), (274184521717934524641157099916833587211, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IBankroll'), (274184521717934524641157099916833587212, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IERC165'), (274184521717934524641157099916833587213, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IERC20'), (274184521717934524641157099916833587214, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:IERC721'), (274184521717934524641157099916833587215, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:Ownable'), (274184521717934524641157099916833587216, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:RabbitHabit'), (274184521717934524641157099916833587217, '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_sources/glodollar.sol:ReentrancyGuard')]
+Contracts in SDC glodollar.sol_0: ['Address', 'Context', 'IBankroll', 'IERC165', 'IERC20', 'IERC721', 'Ownable', 'RabbitHabit', 'ReentrancyGuard']
+Backing up instrumented .certora_sources to .certora_internal/24_06_14_14_55_26_057/.certora_sources/.post_autofinders.0
+Rolling back .certora_sources to .certora_internal/24_06_14_14_55_26_057/.certora_sources/.pre_autofinders.0 version
+Libraries to add = []
+writing file /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_build.json
+writing file /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_build_output_props.json
+writing /home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057/.certora_verify.json
+Path to typechecker is /home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/home/shan/.local/lib/python3.10/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/home/shan/my_project/test-audits/.certora_internal/24_06_14_14_55_26_057', '-typeCheck']

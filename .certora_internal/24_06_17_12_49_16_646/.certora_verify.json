@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Dispenser",
+    "specfile": "TargetCall.spec",
+    "specfileOrigRelpath": "TargetCall.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

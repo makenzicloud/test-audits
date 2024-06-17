@@ -1,0 +1,29 @@
+{
+    "CLI_version": "7.6.3",
+    "branch": "main",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "Dispenser.sol:Dispenser"
+        ],
+        "optimistic_hashing": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "verify": "Dispenser:TargetCall.spec"
+    },
+    "conf_path": null,
+    "cwd_relative": ".",
+    "dirty": true,
+    "main_spec": "TargetCall.spec",
+    "origin": "https://github.com/makenzicloud/test-audits.git",
+    "raw_args": [
+        "/home/shan/.local/bin/certoraRun",
+        "Dispenser.sol:Dispenser",
+        "--verify",
+        "Dispenser:TargetCall.spec",
+        "--optimistic_loop",
+        "--optimistic_hashing"
+    ],
+    "revision": "04d5d829231e912a122b67c2017f8eb13d03dafe",
+    "timestamp": "1718621356.931983"
+}

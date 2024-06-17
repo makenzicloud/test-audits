@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "RabbitHabit",
+    "specfile": "recover.spec",
+    "specfileOrigRelpath": "recover.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}
